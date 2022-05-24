@@ -1,0 +1,51 @@
+h1, h3, h5 {
+    font-family: "Georgia";
+}
+
+.navbar-brand {
+    font-family: "Georgia";
+}
+
+.container_img {
+    position: relative;
+}  
+    .overlay {
+        position: absolute;
+        top: 5px;
+        bottom: 5px;
+        left: 5px;
+        right: 5px;
+        height: relative;
+        width: relative;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #008CBA;
+    }  
+    .container_img:hover .overlay {
+        opacity: 85%;
+    }
+    .overlay_text {
+        color: white;
+        font-size: 20px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+/* @media screen and (max-width: 480px) {
+    
+} */
+#indextemp {
+    float: center;
+    width: 700px;
+    height: 550px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    }
+#latlogo {
+    margin: 500px, 500px, 500px, 500px;
+    }
